@@ -28,11 +28,11 @@ from IPython.display import Audio as play
 
 # Extra:
 # Função auxiliar para plotagem de um vetor no domínio da frequência em dB
-def spectrum(x_freq)
+def spectrum(x_freq):
 # 
 # x_freq: vetor no domínio da frequência, complexo
 #
-    x_magnitude = np.abs(x)
+    x_magnitude = np.abs(x_freq)
     # Normalização para o valor máximo ser 0dB
     x_magnitude /= np.max(x_magnitude)
     return 20*np.log10(x_magnitude)
