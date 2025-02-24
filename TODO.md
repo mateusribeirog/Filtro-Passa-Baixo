@@ -1,0 +1,1 @@
+## Ajeitar a implementacao do filtro
