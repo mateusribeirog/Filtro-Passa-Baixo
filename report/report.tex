@@ -1,0 +1,99 @@
+\documentclass[a4paper]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{float}
+\renewcommand{\thesection}{\arabic{section}}
+
+\author{Grupo: \\
+Mateus Ribeiro - 555225\\
+Hubert Luz - 552798 \\
+Vinícius Lôbo - 554036\\
+}
+\title{Filtro FIR Passa-Baixa para Limpeza de Áudio}
+\begin{document}
+
+\maketitle
+
+\vspace{15mm}
+\section{Introdução}
+Os filtros FIR (Finite Impulse Response) são utilizados em processamento de sinais devido à sua estabilidade e resposta de fase linear. 
+Um filtro FIR passa-baixa permite a passagem de frequências abaixo de uma frequência de corte específica, atenuando as frequências acima dessa frequência. 
+Eles são utilizados em remoção de ruídos de alta frequência em sinais de áudio, pré-processamento de sinais em 
+sistemas de comunicação, dentre outras aplicações.
+
+\section{Métodos}
+Neste trabalho, implementamos um filtro FIR passa-baixa para limpar dois sinais de áudio, removendo ruídos de alta frequência. 
+Utilizamos a linguagem de programação Python para criar, aplicar o filtro e visualizar os resultados.
+
+\subsection{Análise dos Sinais Providos}
+Primeiramente, realizamos a leitura dos arquivos .wav e os plotamos para vizualizar como o sinal estava tanto no domínio do tempo
+quanto no domínio da frequência.
+
+Para realizar o plot no domínio do tempo, pegamos o número de amostras de cada sinal para que possamos calcular o tempo total dele, 
+isso foi feito dividindo o número de amostras pela frequência, em seguida criamos um vetor de
+tempo "t" que será usado para plotar o sinal no domínio do tempo.
+
+
+Já para o plot no domínio na frequência, basta aplicarmos a transformada de fourier nos sinais usando
+a função "fft()" e usar a função "fftfreq()" para pegar o vetor de frequências que correspondem aos componentes da transformada.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{../images/Plot_sinais.png}
+    \caption{Sinal 1 Original no Tempo}
+\end{figure}
+
+Em seguida, utilizamos a função provida no material auxiliar para vizualizar o espectro de ambos os sinais.
+
+\begin{lstlisting}[language=Python, caption=Função auxiliar]
+    def spectrum(x_freq):
+    # 
+    # x_freq: vetor no dominio da frequencia, complexo
+    #
+    x_magnitude = np.abs(x_freq)
+    # Normalizacao para o valor maximo ser 0dB
+    x_magnitude /= np.max(x_magnitude)
+    return 20*np.log10(x_magnitude)
+    
+\end{lstlisting}
+
+Imagens obtidas para os espectros:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{../images/Plot_espectros.png}
+    \caption{Sinal 1 Original no Tempo}
+\end{figure}
+
+
+Podemos vizualizar que:
+\begin{itemize}
+    \item Ao analisarmos o espectro do sinal 1, vemos que o ruído surge próximo aos 6000Hz, sendo assim, 
+    utilizamos a frequencia de corte fc = 5500hz.
+    \item De forma semelhante, o ruído no sinal 2 se mostra presente a partir dos 4000Hz, sendo assim, ajustamos a frequencia de corte fc = 3600Hz.
+\end{itemize}
+
+\subsection{Elaboração do Filtro}
+Para o desenvolvimento do filtro, utilizamos como base teórica a seção 6.7.2 do livro 
+"Oppenheim, A. V.; Willsky. A. S.; Nawabi, S. H. Sinais e Sistemas, 2a edição, Pearson,
+2010."
+
+\section{Resultados}
+Os gráficos a seguir mostram os sinais de áudio originais e filtrados no domínio do tempo. 
+Observa-se que os ruídos de alta frequência foram atenuados, resultando em sinais mais limpos e comprovando 
+o funcionamento do filtro elaborado.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{../images/Plot_filtro.png}
+    \caption{Sinal 1 Original no Tempo}
+\end{figure}
+
+
+\section{Conclusão}
+Neste trabalho, foi possível colocar em prática os conhecimentos adiquiridos ao londo do semestre
+na disciplina de Sinais e Sistemas na implementamação um filtro FIR passa-baixa, vizando limpeza de sinais de áudio, 
+removendo ruídos de alta frequência. Os sinais filtrados apresentaram uma redução 
+significativa nos ruídos, resultando em uma qualidade de áudio melhorada.
+
+\end{document}
