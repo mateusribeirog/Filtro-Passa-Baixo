@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1740943059.78866 "c:/Users/matri/Documents/4_semestre/SS/Filtro-Passa-Baixo/report/report.tex" "report.pdf" "report" 1740943060.71293 0
+["pdflatex"] 1740982989.74946 "c:/Users/matri/Documents/4_semestre/SS/Filtro-Passa-Baixo/report/report.tex" "report.pdf" "report" 1740982990.87467 0
   "../images/Plot_espectros.png" 1740940742 130042 214e3fb1e9677013b865dd9a0fac195d ""
   "../images/Plot_filtro.png" 1740940756 53282 1fc92a2dfd74d7243950f17b4c7fc1cc ""
   "../images/Plot_sinais.png" 1740940730 104692 1c2b0a5ab0a1972b3e1fe859083393bd ""
@@ -52,9 +52,9 @@
   "C:/Users/matri/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstlang1.sty" 1727541453 206518 4eb59a801ad842a713fa168c34227290 ""
   "C:/Users/matri/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.sty" 1727541453 77051 be68720e5402397a830abb9eed5a2cb4 ""
   "C:/Users/matri/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstpatch.sty" 1727541453 353 9024412f43e92cd5b21fe9ded82d0610 ""
-  "c:/Users/matri/Documents/4_semestre/SS/Filtro-Passa-Baixo/report/report.tex" 1740943059 4183 0999454ffcc996901dfacdb7a6e8964f ""
-  "report.aux" 1740943060 1152 c1372079a2b1b2cb4f1df030bd6600a3 "pdflatex"
-  "report.tex" 1740943059 4183 0999454ffcc996901dfacdb7a6e8964f ""
+  "c:/Users/matri/Documents/4_semestre/SS/Filtro-Passa-Baixo/report/report.tex" 1740982989 4186 7f7686e7252a6fe20c4a989f9720669f ""
+  "report.aux" 1740982990 1152 c1372079a2b1b2cb4f1df030bd6600a3 "pdflatex"
+  "report.tex" 1740982989 4186 7f7686e7252a6fe20c4a989f9720669f ""
   (generated)
   "report.aux"
   "report.log"
