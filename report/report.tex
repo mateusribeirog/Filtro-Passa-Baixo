@@ -108,12 +108,13 @@ Portanto, para implementar o filtro, devemos multiplicar a equação de número 
 
 É válido ressaltar que para a implementação, normalizamos a frequência com nyquist($f_n = \frac{SampleRate}{2}$), o que nos permite trabalhar com frequências entre 0 e 1 (independentes da taxa de amostragem), isso foi feito pois 
 o design do filtro FIR se baseia na função sinc, a qual assume frequências normalizadas.
+
 A resposta ao impulso do filtro:
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{../images/Plot_resposta_ao_impulso.png}
-    \caption{Sinal 1 Original no Tempo}
+    \caption{Resposta ao impulso do filtro}
 \end{figure}
 
 Para aplicar o filtro, iremos gozar da propriedade que diz que a convolução entre dois sinais no tempo corresponde ao produto de suas respectivas Transformadas de Fourier.
