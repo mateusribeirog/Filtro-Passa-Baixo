@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.14)  5 MAR 2025 18:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.14)  5 MAR 2025 18:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -307,7 +307,7 @@ Overfull \hbox (10.83397pt too wide) in paragraph at lines 31--33
 \OT1/cmr/m/n/10 Primeiramente, re-al-izamos a leitura dos ar-quivos .wav e os plota-mos para vizualizar
  []
 
-<../images/Plot_sinais.png, id=31, 859.2903pt x 715.473pt>
+<../images/Plot_sinais.png, id=39, 859.2903pt x 715.473pt>
 File: ../images/Plot_sinais.png Graphic file (type png)
 <use ../images/Plot_sinais.png>
 Package pdftex.def Info: ../images/Plot_sinais.png  used on input line 43.
@@ -320,7 +320,7 @@ Package pdftex.def Info: ../images/Plot_sinais.png  used on input line 43.
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 49.
-<../images/Plot_espectros.png, id=42, 859.2903pt x 715.473pt>
+<../images/Plot_espectros.png, id=50, 859.2903pt x 715.473pt>
 File: ../images/Plot_espectros.png Graphic file (type png)
 <use ../images/Plot_espectros.png>
 Package pdftex.def Info: ../images/Plot_espectros.png  used on input line 65.
@@ -340,7 +340,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has
                                                   \__shipout_drop_firstpage_...
 l.100 \end{equation}
                      <../images/Plot_espectros.png>]
-<../images/Plot_resposta_ao_impulso.png, id=79, 440.1243pt x 338.9463pt>
+<../images/Plot_resposta_ao_impulso.png, id=87, 440.1243pt x 338.9463pt>
 File: ../images/Plot_resposta_ao_impulso.png Graphic file (type png)
 <use ../images/Plot_resposta_ao_impulso.png>
 Package pdftex.def Info: ../images/Plot_resposta_ao_impulso.png  used on input line 115.
@@ -353,17 +353,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has
                                                   \__shipout_drop_firstpage_...
 l.124 \newpage
                <../images/Plot_resposta_ao_impulso.png>]
-<../images/Fase_sinal1.png, id=89, 621.522pt x 340.3917pt>
+<../images/Fase_sinal1.png, id=97, 621.522pt x 340.3917pt>
 File: ../images/Fase_sinal1.png Graphic file (type png)
 <use ../images/Fase_sinal1.png>
 Package pdftex.def Info: ../images/Fase_sinal1.png  used on input line 129.
 (pdftex.def)             Requested size: 241.49895pt x 132.25879pt.
-<../images/Fase_sinal2.png, id=90, 621.522pt x 340.3917pt>
+<../images/Fase_sinal2.png, id=98, 621.522pt x 340.3917pt>
 File: ../images/Fase_sinal2.png Graphic file (type png)
 <use ../images/Fase_sinal2.png>
 Package pdftex.def Info: ../images/Fase_sinal2.png  used on input line 135.
 (pdftex.def)             Requested size: 241.49895pt x 132.25879pt.
-<../images/Plot_filtro.png, id=91, 731.3724pt x 507.3354pt>
+<../images/Plot_filtro.png, id=99, 731.3724pt x 507.3354pt>
 File: ../images/Plot_filtro.png Graphic file (type png)
 <use ../images/Plot_filtro.png>
 Package pdftex.def Info: ../images/Plot_filtro.png  used on input line 146.
@@ -390,15 +390,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
-<../images/plot_sinal1_variando_wc.png, id=100, 721.9773pt x 548.5293pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 152.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 152.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 152.
+
+<../images/plot_sinal1_variando_wc.png, id=108, 721.9773pt x 548.5293pt>
 File: ../images/plot_sinal1_variando_wc.png Graphic file (type png)
 <use ../images/plot_sinal1_variando_wc.png>
-Package pdftex.def Info: ../images/plot_sinal1_variando_wc.png  used on input line 158.
+Package pdftex.def Info: ../images/plot_sinal1_variando_wc.png  used on input line 156.
 (pdftex.def)             Requested size: 276.00105pt x 209.6904pt.
-<../images/plot_sinal2_variando_wc.png, id=101, 731.3724pt x 548.5293pt>
+<../images/plot_sinal2_variando_wc.png, id=109, 731.3724pt x 548.5293pt>
 File: ../images/plot_sinal2_variando_wc.png Graphic file (type png)
 <use ../images/plot_sinal2_variando_wc.png>
-Package pdftex.def Info: ../images/plot_sinal2_variando_wc.png  used on input line 164.
+Package pdftex.def Info: ../images/plot_sinal2_variando_wc.png  used on input line 162.
 (pdftex.def)             Requested size: 276.00105pt x 207.00368pt.
 
 
@@ -406,17 +418,29 @@ Package pdftex.def Info: ../images/plot_sinal2_variando_wc.png  used on input li
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.167 
+l.165 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.167 
+l.165 
        <../images/Plot_filtro.png> <../images/plot_sinal1_variando_wc.png>]
-<../images/plot_sinal1_variando_wc_l.png, id=112, 721.9773pt x 548.5293pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 166.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 166.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 166.
+
+<../images/plot_sinal1_variando_wc_l.png, id=118, 721.9773pt x 548.5293pt>
 File: ../images/plot_sinal1_variando_wc_l.png Graphic file (type png)
 <use ../images/plot_sinal1_variando_wc_l.png>
-Package pdftex.def Info: ../images/plot_sinal1_variando_wc_l.png  used on input line 174.
+Package pdftex.def Info: ../images/plot_sinal1_variando_wc_l.png  used on input line 170.
 (pdftex.def)             Requested size: 276.00105pt x 209.6904pt.
 
 
@@ -424,17 +448,17 @@ Package pdftex.def Info: ../images/plot_sinal1_variando_wc_l.png  used on input 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.177 \newpage
+l.173 \newpage
               
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.177 \newpage
+l.173 \newpage
                <../images/plot_sinal2_variando_wc.png> <../images/plot_sinal1_variando_wc_l.png>]
-<../images/plot_sinal2_variando_wc_l.png, id=122, 731.3724pt x 548.5293pt>
+<../images/plot_sinal2_variando_wc_l.png, id=128, 731.3724pt x 548.5293pt>
 File: ../images/plot_sinal2_variando_wc_l.png Graphic file (type png)
 <use ../images/plot_sinal2_variando_wc_l.png>
-Package pdftex.def Info: ../images/plot_sinal2_variando_wc_l.png  used on input line 182.
+Package pdftex.def Info: ../images/plot_sinal2_variando_wc_l.png  used on input line 178.
 (pdftex.def)             Requested size: 276.00105pt x 207.00368pt.
 
 
@@ -442,27 +466,27 @@ Package pdftex.def Info: ../images/plot_sinal2_variando_wc_l.png  used on input 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.198 \end{document}
+l.194 \end{document}
                      <../images/plot_sinal2_variando_wc_l.png>] (report.aux)
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 00FCEE799FFF5C8F7241A9562139BED4;895.
+(rerunfilecheck)             Checksum: 9ACBAF2A073CDB732D4ECF6E74571EC4;1213.
  ) 
 Here is how much of TeX's memory you used:
- 11194 strings out of 473681
- 171848 string characters out of 5719194
- 748723 words of memory out of 5000000
- 34125 multiletter control sequences out of 15000+600000
+ 11198 strings out of 473681
+ 171928 string characters out of 5719194
+ 748727 words of memory out of 5000000
+ 34127 multiletter control sequences out of 15000+600000
  564301 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,79p,331b,1257s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\matri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on report.pdf (8 pages, 764072 bytes).
+ <C:\Users\matri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on report.pdf (8 pages, 749306 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 207 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
 

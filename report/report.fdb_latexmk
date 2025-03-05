@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1741211817.7877 "c:/Users/matri/Documents/4_semestre/SS/Filtro-Passa-Baixo/report/report.tex" "report.pdf" "report" 1741211819.51041 0
+["pdflatex"] 1741211986.80872 "c:/Users/matri/Documents/4_semestre/SS/Filtro-Passa-Baixo/report/report.tex" "report.pdf" "report" 1741211988.45185 0
   "../images/Fase_sinal1.png" 1741211805 55675 e268662ef38697a4124e3a323cd2c968 ""
   "../images/Fase_sinal2.png" 1741211812 50998 e17cc798096cebabe6a868f0127eccef ""
   "../images/Plot_espectros.png" 1740940742 130042 214e3fb1e9677013b865dd9a0fac195d ""
@@ -34,9 +34,7 @@
   "C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1247596666 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
-  "C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
   "C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1247596667 36281 c355509802a035cadc5f15869451dcee ""
-  "C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1247596666 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1247596666 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
@@ -100,10 +98,10 @@
   "C:/Users/matri/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/matri/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/matri/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/matri/Documents/4_semestre/SS/Filtro-Passa-Baixo/report/report.tex" 1741211817 8639 f147ad42f167bf04b0f4661ded6f19d2 ""
-  "report.aux" 1741211819 2801 18062883657ac8131cc82c4aa725e8db "pdflatex"
-  "report.out" 1741211819 895 00fcee799fff5c8f7241a9562139bed4 "pdflatex"
-  "report.tex" 1741211817 8639 f147ad42f167bf04b0f4661ded6f19d2 ""
+  "c:/Users/matri/Documents/4_semestre/SS/Filtro-Passa-Baixo/report/report.tex" 1741211984 8585 e236b6a5c61b9a14abe648ce6c67de24 ""
+  "report.aux" 1741211988 3075 4f7719cbdff898fb17c57f79d889685c "pdflatex"
+  "report.out" 1741211988 1213 9acbaf2a073cdb732d4ecf6e74571ec4 "pdflatex"
+  "report.tex" 1741211984 8585 e236b6a5c61b9a14abe648ce6c67de24 ""
   (generated)
   "report.aux"
   "report.log"
