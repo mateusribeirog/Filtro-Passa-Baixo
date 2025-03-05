@@ -120,6 +120,21 @@ Para aplicar o filtro, iremos gozar da propriedade que diz que a convolução en
 
 Ou seja, iremos calcular a fft do sinal e do filtro FIR, multiplicá-las e em seguida aplicar a ifft para retornar ao domínio do tempo. Um problema que encontramos é que o comprimento do filtro
 é menor que o do sinal, por isso, tivemos que utilizar a técnica "zero-padding", ou seja, preencher com 0 o restante do vetor do filtro para igualar o tamanho com o do sinal.
+\\Dessa forma, empiricamente, testando vários valores para L, decidimos escolher $L = 101$.
+\newpage
+Em seguida, os gráficos seguintes irão mostrar os resultados da Magnitude e Fase para o sinal 1 e 2:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/Fase_sinal1.png}
+    \caption{Magnitude e fase para o sinal 1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/Fase_sinal2.png}
+    \caption{Magnitude e fase para o sinal 2}
+\end{figure}
 
 \section{Resultados}
 Os gráficos a seguir mostram os sinais de áudio originais e filtrados no domínio do tempo. 
@@ -128,13 +143,14 @@ o funcionamento do filtro elaborado.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Plot_filtro.png}
+    \includegraphics[width=0.7\textwidth]{images/Plot_filtro.png}
     \caption{Sinal 1 Original no Tempo}
 \end{figure}
 
 Agora, ao mudarmos os parâmetros $W_c$(Frequência de Corte) e L(\textit{Samples}), vamos ter os seguintes resultados:\\\\
+\subsection{Variando parâmetros}
 \begin{center}
-    \Large{Mudança em $W_c$ :}
+    \large{Mudança em $W_c$ :}
 \end{center}
 Sinal 1:
 \begin{figure}[H]
@@ -150,7 +166,7 @@ Sinal 2:
 \end{figure}
 
 \begin{center}
-    \Large{Mudança em $W_c$ e L :}
+    \large{Mudança em $W_c$ e L :}
 \end{center}
 Sinal 1:
 \begin{figure}[H]
