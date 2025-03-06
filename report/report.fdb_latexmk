@@ -1,9 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1741214634.07498 "c:/Users/matri/Documents/4_semestre/SS/Filtro-Passa-Baixo/report/report.tex" "report.pdf" "report" 1741214635.74722 0
+["pdflatex"] 1741228193.89084 "c:/Users/matri/Documents/4_semestre/SS/Filtro-Passa-Baixo/report/report.tex" "report.pdf" "report" 1741228195.71302 0
   "../images/Fase_sinal1.png" 1741211805 55675 e268662ef38697a4124e3a323cd2c968 ""
   "../images/Fase_sinal2.png" 1741211812 50998 e17cc798096cebabe6a868f0127eccef ""
   "../images/Plot_espectros.png" 1740940742 130042 214e3fb1e9677013b865dd9a0fac195d ""
   "../images/Plot_filtro.png" 1741044925 53330 a6f60d58c49b38f7300900e23f7d453f ""
+  "../images/Plot_filtro_tempo.png" 1741228192 104228 6a28222fa2a20a5495f05d340cbde41e ""
   "../images/Plot_resposta_ao_impulso.png" 1741039066 46738 46720283f28367d5e739cff29f9b7c4a ""
   "../images/Plot_sinais.png" 1740940730 104692 1c2b0a5ab0a1972b3e1fe859083393bd ""
   "../images/plot_sinal1_variando_wc.png" 1741207682 45694 9504f59b071f7ba4153149cf6dd8359c ""
@@ -98,10 +99,10 @@
   "C:/Users/matri/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/matri/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/matri/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/matri/Documents/4_semestre/SS/Filtro-Passa-Baixo/report/report.tex" 1741214631 8604 1959d67f94aa1ac4ba4151c86d426fcb ""
-  "report.aux" 1741214635 3079 42835083024ef111481a737857443673 "pdflatex"
-  "report.out" 1741214635 1213 9acbaf2a073cdb732d4ecf6e74571ec4 "pdflatex"
-  "report.tex" 1741214631 8604 1959d67f94aa1ac4ba4151c86d426fcb ""
+  "c:/Users/matri/Documents/4_semestre/SS/Filtro-Passa-Baixo/report/report.tex" 1741228194 9708 f32ce7926c18f76ed1788b1c23d552cc ""
+  "report.aux" 1741228195 3233 169a07235d71e8611db0616441592d43 "pdflatex"
+  "report.out" 1741228195 1213 9acbaf2a073cdb732d4ecf6e74571ec4 "pdflatex"
+  "report.tex" 1741228194 9708 f32ce7926c18f76ed1788b1c23d552cc ""
   (generated)
   "report.aux"
   "report.log"

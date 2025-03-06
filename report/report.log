@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.14)  5 MAR 2025 19:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.14)  5 MAR 2025 23:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -371,7 +371,7 @@ Package pdftex.def Info: ../images/Fase_sinal2.png  used on input line 136.
 File: ../images/Plot_filtro.png Graphic file (type png)
 <use ../images/Plot_filtro.png>
 Package pdftex.def Info: ../images/Plot_filtro.png  used on input line 147.
-(pdftex.def)             Requested size: 241.49895pt x 167.52184pt.
+(pdftex.def)             Requested size: 276.00105pt x 191.45795pt.
 
 
 [5
@@ -385,92 +385,101 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has
                                                   \__shipout_drop_firstpage_...
 l.150 
        <../images/Fase_sinal1.png> <../images/Fase_sinal2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+<../images/Plot_filtro_tempo.png, id=108, 747.2718pt x 507.3354pt>
+File: ../images/Plot_filtro_tempo.png Graphic file (type png)
+<use ../images/Plot_filtro_tempo.png>
+Package pdftex.def Info: ../images/Plot_filtro_tempo.png  used on input line 157.
+(pdftex.def)             Requested size: 276.00105pt x 187.38602pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
-
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 153.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 153.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 153.
-
-<../images/plot_sinal1_variando_wc.png, id=108, 721.9773pt x 548.5293pt>
-File: ../images/plot_sinal1_variando_wc.png Graphic file (type png)
-<use ../images/plot_sinal1_variando_wc.png>
-Package pdftex.def Info: ../images/plot_sinal1_variando_wc.png  used on input line 157.
-(pdftex.def)             Requested size: 276.00105pt x 209.6904pt.
-<../images/plot_sinal2_variando_wc.png, id=109, 731.3724pt x 548.5293pt>
-File: ../images/plot_sinal2_variando_wc.png Graphic file (type png)
-<use ../images/plot_sinal2_variando_wc.png>
-Package pdftex.def Info: ../images/plot_sinal2_variando_wc.png  used on input line 163.
-(pdftex.def)             Requested size: 276.00105pt x 207.00368pt.
 
 
 [6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.166 
+l.163 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.166 
-       <../images/Plot_filtro.png> <../images/plot_sinal1_variando_wc.png>]
+l.163 
+       <../images/Plot_filtro.png> <../images/Plot_filtro_tempo.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 167.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 167.
+(hyperref)                removing `math shift' on input line 166.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 167.
+(hyperref)                removing `subscript' on input line 166.
 
-<../images/plot_sinal1_variando_wc_l.png, id=118, 721.9773pt x 548.5293pt>
-File: ../images/plot_sinal1_variando_wc_l.png Graphic file (type png)
-<use ../images/plot_sinal1_variando_wc_l.png>
-Package pdftex.def Info: ../images/plot_sinal1_variando_wc_l.png  used on input line 171.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 166.
+
+<../images/plot_sinal1_variando_wc.png, id=117, 721.9773pt x 548.5293pt>
+File: ../images/plot_sinal1_variando_wc.png Graphic file (type png)
+<use ../images/plot_sinal1_variando_wc.png>
+Package pdftex.def Info: ../images/plot_sinal1_variando_wc.png  used on input line 170.
 (pdftex.def)             Requested size: 276.00105pt x 209.6904pt.
+<../images/plot_sinal2_variando_wc.png, id=118, 731.3724pt x 548.5293pt>
+File: ../images/plot_sinal2_variando_wc.png Graphic file (type png)
+<use ../images/plot_sinal2_variando_wc.png>
+Package pdftex.def Info: ../images/plot_sinal2_variando_wc.png  used on input line 176.
+(pdftex.def)             Requested size: 276.00105pt x 207.00368pt.
 
 
 [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.174 \newpage
-              
-pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.174 \newpage
-               <../images/plot_sinal2_variando_wc.png> <../images/plot_sinal1_variando_wc_l.png>]
-<../images/plot_sinal2_variando_wc_l.png, id=128, 731.3724pt x 548.5293pt>
-File: ../images/plot_sinal2_variando_wc_l.png Graphic file (type png)
-<use ../images/plot_sinal2_variando_wc_l.png>
-Package pdftex.def Info: ../images/plot_sinal2_variando_wc_l.png  used on input line 179.
-(pdftex.def)             Requested size: 276.00105pt x 207.00368pt.
+l.179 
+       <../images/plot_sinal1_variando_wc.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 180.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 180.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 180.
+
+<../images/plot_sinal1_variando_wc_l.png, id=126, 721.9773pt x 548.5293pt>
+File: ../images/plot_sinal1_variando_wc_l.png Graphic file (type png)
+<use ../images/plot_sinal1_variando_wc_l.png>
+Package pdftex.def Info: ../images/plot_sinal1_variando_wc_l.png  used on input line 184.
+(pdftex.def)             Requested size: 276.00105pt x 209.6904pt.
 
 
 [8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.187 \newpage
+              
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.195 \end{document}
+l.187 \newpage
+               <../images/plot_sinal2_variando_wc.png> <../images/plot_sinal1_variando_wc_l.png>]
+<../images/plot_sinal2_variando_wc_l.png, id=135, 731.3724pt x 548.5293pt>
+File: ../images/plot_sinal2_variando_wc_l.png Graphic file (type png)
+<use ../images/plot_sinal2_variando_wc_l.png>
+Package pdftex.def Info: ../images/plot_sinal2_variando_wc_l.png  used on input line 192.
+(pdftex.def)             Requested size: 276.00105pt x 207.00368pt.
+
+
+[9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.208 \end{document}
                      <../images/plot_sinal2_variando_wc_l.png>] (report.aux)
  ***********
 LaTeX2e <2024-11-01>
@@ -480,17 +489,17 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 9ACBAF2A073CDB732D4ECF6E74571EC4;1213.
  ) 
 Here is how much of TeX's memory you used:
- 11198 strings out of 473681
- 171928 string characters out of 5719194
+ 11207 strings out of 473681
+ 172208 string characters out of 5719194
  748727 words of memory out of 5000000
- 34127 multiletter control sequences out of 15000+600000
+ 34134 multiletter control sequences out of 15000+600000
  564301 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,331b,1257s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,509b,1257s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\matri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/matri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on report.pdf (8 pages, 749295 bytes).
+Output written on report.pdf (9 pages, 835141 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 215 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
